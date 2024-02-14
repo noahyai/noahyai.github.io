@@ -4,9 +4,9 @@ if (document.getElementById('my-work-link')) {
   })
 }
 
-if (document.getElementById('my-project-link')) {
-  document.getElementById('my-project-link').addEventListener('click', () => {
-    document.getElementById('my-project-section').scrollIntoView({behavior: "smooth"})
+if (document.getElementById('my-projects-link')) {
+  document.getElementById('my-projects-link').addEventListener('click', () => {
+    document.getElementById('my-projects-section').scrollIntoView({behavior: "smooth"})
   })
 }
 
